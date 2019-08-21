@@ -1,13 +1,13 @@
 {
-  "description" : "Image collection format for HLS-L30 as downloaded from HLS.",
+  "description" : "Image collection format for HLS-L30 as downloaded from HLS. The format should work on original ZIP compressed as well as uncompressed imagery.",
   "tags" : ["Landasat","Sentinel","Surface Reflectance"],
-  "pattern" : "*.hdf",
+  "pattern" : ".*\\.hdf.*",
   "images" : {
-    "pattern" : ".hdf.*"
+    "pattern" : "HDF4_EOS:EOS_GRID:\"(.+)\\.hdf.*"
   },
   "datetime" : {
-    "pattern" : "/[0-9]{7}",	
-    "format" : "%Y"
+    "pattern" : "HLS.L30(.+?)_.*",	
+    "format" : "%Y%m%dT%H%M%S"
   },
   "bands" : {
     "B01" : {
