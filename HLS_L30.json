@@ -3,10 +3,10 @@
   "tags" : ["Landasat","Sentinel","Surface Reflectance"],
   "pattern" : ".+\\.hdf",
   "images" : {
-    "pattern" : "HDF4_EOS:EOS_GRID:\"(.+)\":*.hdf.*"
+    "pattern" : "HDF4_EOS:EOS_GRID:"HLS.L30.T23LLF.[0-9]{7]":*.hdf.*"
   },
   "datetime" : {
-    "pattern" : ".*HLS.L30.{6}.{7}.v1.4*\\.hdf",
+    "pattern" : ".*HLS.L30.T23LLF.{7}.v1.4*\\.hdf",
     "format" : "%Y%j"
   },
   "bands" : {
