@@ -7,7 +7,7 @@
   },
   "datetime" : {
     "pattern" : ".*HLS.L30.T23LLF.(.+?)_.*",	
-    "format" : "%Y%DOY"
+    "format" : "%YYYY%DDD"
   },
   "bands" : {
     "B01" : {
