@@ -53,12 +53,12 @@
     "B10" : {
       "nodata" : 0,
       "pattern" : ".+band10",
-      "scale" : 0.0001
+      "scale" : 0.01
     },
     "B11" : {
       "nodata" : 0,
       "pattern" : ".+band11",
-      "scale" : 0.0001
+      "scale" : 0.01
     },
     "QA" : {
       "pattern" : ".+QA"
