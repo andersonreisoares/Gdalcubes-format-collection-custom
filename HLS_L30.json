@@ -52,7 +52,7 @@
     },
     "B10" : {
       "nodata" : 0,
-      "pattern" : "band10$",
+      "pattern" : ".+band10$",
       "scale" : 0.01
     },
     "B11" : {
