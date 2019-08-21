@@ -1,9 +1,9 @@
 {
   "description" : "Image collection format for HLS-L30 as downloaded from HLS.",
   "tags" : ["Landasat","Sentinel","Surface Reflectance"],
-  "pattern" : "*.hdf",
+  "pattern" : "*.hdf.*",
   "images" : {
-    "pattern" : "HDF4_EOS:EOS_GRID:\"(.+)\\.hdf.*"
+    "pattern" : "HDF4_EOS:EOS_GRID:\(.+)\\.hdf.*"
   },
   "datetime" : {
     "pattern" : "HLS.L30.T23LLF.[0-9]{7}",	
