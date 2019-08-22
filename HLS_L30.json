@@ -59,9 +59,6 @@
       "nodata" : 0,
       "pattern" : "band11",
       "scale" : 0.01
-    },
-    "QA" : {
-      "pattern" : "QA"
     }
   }
 }
