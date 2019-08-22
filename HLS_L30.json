@@ -10,7 +10,7 @@
     "format" : "%Y%j"
   },
   "bands" : {
-    "B01" : {
+    "band01" : {
       "nodata" : 0,
       "pattern" : "band01",
       "scale" : 0.0001
