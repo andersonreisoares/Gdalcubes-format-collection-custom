@@ -6,7 +6,7 @@
     "pattern" : "HDF4_EOS:EOS_GRID:(.+):"
   },
   "datetime" : {
-    "pattern" : ".*.([0-9]{7}).*",
+    "pattern" : "HLS.[L-S]30.{7}.{7}",
     "format" : "%Y%j"
   },
   "bands" : {
