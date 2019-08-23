@@ -3,7 +3,7 @@
   "tags" : ["Landasat","Sentinel","Surface Reflectance"],
   "pattern" : ".+\\.hdf",
   "images" : {
-    "pattern" : ".*(HLS.[LS]30.{6}.{7}.v1.4)[A-Za-z0-9_]+.*"
+    "pattern" : ".*(HLS.[LS]30.{6}.{7}.v1.4)[A-Z-0-9]+.*"
   },
   "datetime" : {
     "pattern" : "([0-9]{7}.+)", 
@@ -12,43 +12,43 @@
   "bands" : {
     "band01" : {
       "nodata" : 0,
-      "pattern" : "band01"
+      "pattern" : "band01$"
     },
     "B02" : {
       "nodata" : 0,
-      "pattern" : "band02"
+      "pattern" : "band02$"
     },
     "B03" : {
       "nodata" : 0,
-      "pattern" : "band03"
+      "pattern" : "band03$"
     },
     "B04" : {
       "nodata" : 0,
-      "pattern" : "band04"
+      "pattern" : "band04$"
     },
     "B05" : {
       "nodata" : 0,
-      "pattern" : "band05"
+      "pattern" : "band05$"
     },
     "B06" : {
       "nodata" : 0,
-      "pattern" : "band06"
+      "pattern" : "band06$"
     },
     "B07" : {
       "nodata" : 0,
-      "pattern" : "band07"
+      "pattern" : "band07$"
     },
     "B09" : {
       "nodata" : 0,
-      "pattern" : "band09"
+      "pattern" : "band09$"
     },
     "B10" : {
       "nodata" : 0,
-      "pattern" : ".+band10$"
+      "pattern" : "band10$"
     },
     "B11" : {
       "nodata" : 0,
-      "pattern" : "band11"
+      "pattern" : "band11$"
     }
   }
 }
