@@ -3,10 +3,10 @@
   "tags" : ["Landsat", "Sentinel", "Surface Reflectance"],
   "pattern" : ".+v1\\.4\\.hdf.*",
   "images" : {
-    "pattern" : ".*(HLS\\.L30.+)\\.v1\\.4\\.hdf.*"
+    "pattern" : ".*(HLS\\.[LS]30.+)\\.v1\\.4\\.hdf.*"
   },
   "datetime" : {
-    "pattern" : ".*HLS\\.L30\\..{6}\\.([0-9]{7})\\.v1\\.4\\.hdf.*", 
+    "pattern" : ".*HLS\\.[LS]30\\..{6}\\.([0-9]{7})\\.v1\\.4\\.hdf.*", 
     "format" : "%Y%j"
   },
   "bands" : {
