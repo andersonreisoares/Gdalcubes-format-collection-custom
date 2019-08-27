@@ -28,7 +28,7 @@
     },
     "NIR" : {
       "nodata" : -1000,
-      "pattern" : ".*band05$|.*B09$"
+      "pattern" : ".*band05$|.*B8A$"
     },
     "SWIR1" : {
       "nodata" : -1000,
