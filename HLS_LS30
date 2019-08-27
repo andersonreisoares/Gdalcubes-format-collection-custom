@@ -1,0 +1,45 @@
+{
+  "description" : "Image collection format for the Harmonized Landsat Sentinel-2 (HLS-L30) dataset (v1.4)",
+  "tags" : ["Landsat", "Sentinel", "Surface Reflectance"],
+  "pattern" : ".+v1\\.4\\.hdf.*",
+  "images" : {
+    "pattern" : ".*(HLS\\.[LS]30.+)\\.v1\\.4\\.hdf.*"
+  },
+  "datetime" : {
+    "pattern" : ".*HLS\\.[LS]30\\..{6}\\.([0-9]{7})\\.v1\\.4\\.hdf.*", 
+    "format" : "%Y%j"
+  },
+  "bands" : {
+    "Coastal_Aerosol" : {
+      "nodata" : -1000,
+      "pattern" : ".*band01$|.*B01$"
+    },
+    "Blue" : {
+      "nodata" : -1000,
+      "pattern" : ".*band02$|.*B02$"
+    },
+    "Green" : {
+      "nodata" : -1000,
+      "pattern" : ".*band03$|.*B03$"
+    },
+    "Red" : {
+      "nodata" : -1000,
+      "pattern" : ".*band04$|.*B04$"
+    },
+    "NIR" : {
+      "nodata" : -1000,
+      "pattern" : ".*band05$|.*B09$"
+    },
+    "SWIR1" : {
+      "nodata" : -1000,
+      "pattern" : ".*band06$|.*B10$"
+    },
+    "SWIR2" : {
+      "nodata" : -1000,
+      "pattern" : ".*band07$|.*B011$"
+    }
+    "QA" : {
+      "pattern" : ".*QA$"
+    }
+  }
+}
