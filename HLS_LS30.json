@@ -36,7 +36,7 @@
     },
     "SWIR2" : {
       "nodata" : -1000,
-      "pattern" : ".*band07$|.*B011$"
+      "pattern" : ".*band07$|.*B11$"
     },
     "QA" : {
       "pattern" : ".*QA$"
