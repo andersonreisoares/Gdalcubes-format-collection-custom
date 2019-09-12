@@ -1,0 +1,46 @@
+{
+  "description" : "Image collection format for Sentinel 2 Level 2A data as downloaded from Theia.",
+  "tags" : ["Sentinel", "ESA", "Flat Reflectance", "Theia"],
+  "pattern" : ".+VE.+\\.tif",
+  "images" : {
+    "pattern" : ".*/(.+)_[A-Z]_V[0-9]-[0-9]_.*"
+  },
+  "datetime" : {
+    "pattern" : ".*/VE[AB]_([0-9]{8}-[0-9]{6})-.*",
+    "format" : "%Y%m%d-%H%M%S"
+  },
+  "bands" : {
+    "CLOUD" : {
+      "nodata" : -10000,
+      "pattern" : ".+_SRE_B2\\.tif"
+    },
+    "Green" : {
+      "nodata" : -10000,
+      "pattern" : ".+_SRE_B4\\.tif"
+    },
+    "Red" : {
+      "nodata" : -10000,
+      "pattern" : ".+_SRE_B5\\.tif"
+    },
+    "Rede1" : {
+      "nodata" : -10000,
+      "pattern" : ".+_SRE_B7\\.tif"
+    },
+    "Rede2" : {
+      "nodata" : -10000,
+      "pattern" : ".+_SRE_B8\\.tif"
+    },
+    "Rede3" : {
+      "nodata" : -10000,
+      "pattern" : ".+_SRE_B9\\.tif"
+    },
+    "Rede4" : {
+      "nodata" : -10000,
+      "pattern" : ".+_SRE_B10\\.tif"
+    },
+    "Nir" : {
+      "nodata" : -10000,
+      "pattern" : ".+_SRE_B11\\.tif"
+    }
+  }
+}
