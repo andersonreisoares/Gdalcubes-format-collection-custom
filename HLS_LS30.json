@@ -12,31 +12,31 @@
   "bands" : {
     "Coastal_Aerosol" : {
       "nodata" : -1000,
-      "pattern" : ".*band01$|.*B01$"
+      "pattern" : ".*B01$"
     },
     "Blue" : {
       "nodata" : -1000,
-      "pattern" : ".*band02$|.*B02$"
+      "pattern" : ".*B02$"
     },
     "Green" : {
       "nodata" : -1000,
-      "pattern" : ".*band03$|.*B03$"
+      "pattern" : ".*B03$"
     },
     "Red" : {
       "nodata" : -1000,
-      "pattern" : ".*band04$|.*B04$"
+      "pattern" : ".*B04$"
     },
     "NIR" : {
       "nodata" : -1000,
-      "pattern" : ".*band05$|.*B8A$"
+      "pattern" : ".B8A$"
     },
     "SWIR1" : {
       "nodata" : -1000,
-      "pattern" : ".*band06$|.*B11$"
+      "pattern" : ".*B11$"
     },
     "SWIR2" : {
       "nodata" : -1000,
-      "pattern" : ".*band07$|.*B12$"
+      "pattern" : ".*B12$"
     },
     "QA" : {
       "pattern" : ".*QA$"
